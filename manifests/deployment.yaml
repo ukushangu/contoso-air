@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: contoso-air
-          image: myregistrylimj.azurecr.io/contoso-air:latest
+          image: myregistrya5l7.azurecr.io/contoso-air:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000

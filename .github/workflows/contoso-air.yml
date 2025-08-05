@@ -38,15 +38,15 @@ on:
   workflow_dispatch:
 
 env:
-  ACR_RESOURCE_GROUP: myresourcegroup15148
-  AZURE_CONTAINER_REGISTRY: myregistrylimj
+  ACR_RESOURCE_GROUP: myresourcegroup23585
+  AZURE_CONTAINER_REGISTRY: myregistrya5l7
   CONTAINER_NAME: contoso-air
-  CLUSTER_NAME: myakscluster
-  CLUSTER_RESOURCE_GROUP: myresourcegroup15148
+  CLUSTER_NAME: MYfirstCluster
+  CLUSTER_RESOURCE_GROUP: myresourcegroup23585
   CLUSTER_RESOURCE_TYPE: Microsoft.ContainerService/managedClusters
   DEPLOYMENT_MANIFEST_PATH: ./manifests
   DOCKER_FILE: ./src/web/Dockerfile
-  BUILD_CONTEXT_PATH: ./
+  BUILD_CONTEXT_PATH: ./src/web
   NAMESPACE: dev
   ENABLENAMESPACECREATION: false
   AUTH_TYPE: SERVICE_PRINCIPAL
